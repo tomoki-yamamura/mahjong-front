@@ -20,7 +20,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(inter.className, 'min-h-dvh')}>
         <Header />
-        {children}
+        <div className="p-6">
+          {children}
+        </div>
       </body>
     </html>
   );
