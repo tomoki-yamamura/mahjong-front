@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { DatePickerWithRange } from "@/components/ui/dateRangePicker";
+import Score from "./components/score";
+import Rank from "./components/rank";
 
 export default function Dashboard() {
   return (
@@ -13,7 +15,10 @@ export default function Dashboard() {
           </Button>
         </div>
       </div>
-      <div>here is section dashboard</div>
+      <div>
+        <Rank />
+        <Score />
+      </div>
     </div>
   )
 }
